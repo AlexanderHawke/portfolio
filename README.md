@@ -1,3 +1,7 @@
+## Profile
+
+This is a portfolio project meant to showcase my skills and projects as a developer.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
