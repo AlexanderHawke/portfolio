@@ -1,0 +1,70 @@
+/* app/components/Experience.module.css */
+.experience {
+  /* Uses section styles from globals.css */
+}
+
+.experience h2 {
+  /* Uses h2 styles from globals.css */
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.experienceItem {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  border-left: 5px solid var(--primary-color);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+  transition: box-shadow 0.3s ease;
+}
+
+.experienceItem:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.07);
+}
+
+.experienceItem:last-child {
+  margin-bottom: 0;
+}
+
+.experienceItem h3 {
+  /* Uses h3 styles from globals.css */
+  margin-bottom: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.company {
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.durationLocation {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
+
+.technologies {
+  font-size: 0.9rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.experienceItem ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 0.5rem;
+}
+
+.experienceItem li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}

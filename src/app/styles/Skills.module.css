@@ -1,0 +1,56 @@
+/* app/components/Skills.module.css */
+.skills {
+  /* Uses section styles from globals.css */
+}
+
+.skills h2 {
+  /* Uses h2 styles from globals.css */
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid */
+  gap: 2rem;
+}
+
+.skillCategory {
+  background-color: #fdfdfd;
+  padding: 1.5rem 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skillCategory:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.skillCategory h3 {
+  /* Uses h3 styles from globals.css */
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.skillList {
+  list-style: none;
+  padding: 0;
+}
+
+.skillList li {
+  background-color: var(--light-gray);
+  color: var(--text-color);
+  padding: 0.6rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+}
+
+.skillList li:hover {
+  background-color: #e0e0e0;
+}

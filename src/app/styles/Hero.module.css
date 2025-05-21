@@ -1,0 +1,32 @@
+.hero {
+  background-color: var(--primary-color); /* Or a gradient, or an image */
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+  border-radius: 0 0 var(--border-radius) var(--border-radius); /* Rounded bottom corners */
+}
+
+.heroContent h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.heroContent p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.contactInfo {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contactInfo a {
+  color: white;
+  margin: 0 0.5rem;
+}
+.contactInfo a:hover {
+  text-decoration: underline;
+}

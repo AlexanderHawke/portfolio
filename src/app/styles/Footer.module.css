@@ -1,0 +1,13 @@
+/* app/components/Footer.module.css */
+.footer {
+  background-color: var(--secondary-color);
+  color: #f0f0f0; /* Lighter text for dark background */
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 3rem; /* Ensure some space above the footer */
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin: 0;
+}

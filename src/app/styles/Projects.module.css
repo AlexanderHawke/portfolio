@@ -1,0 +1,76 @@
+/* app/components/Projects.module.css */
+.projects {
+  /* Uses section styles from globals.css */
+  background-color: #f9f9f9; /* Slightly different background for this section */
+}
+
+.projects h2 {
+  /* Uses h2 styles from globals.css */
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.projectCard {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: 1.8rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.projectCard h3 {
+  /* Uses h3 styles from globals.css */
+  color: var(--primary-color);
+  margin-bottom: 0.75rem;
+}
+
+.technologies {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.projectCard ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  flex-grow: 1; /* Makes description take available space */
+}
+
+.projectCard li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin-bottom: 0.4rem;
+}
+
+.projectLink {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  margin-top: auto; /* Pushes link to bottom if card heights vary */
+}
+
+.projectLink:hover {
+  background-color: #005bb5; /* Darker shade of primary */
+  text-decoration: none;
+}
